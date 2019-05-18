@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>microboot-restful-provider</artifactId>
+	<artifactId>microboot-shiro-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microboot-restful-provider</name>
+	<name>microboot-shiro-web</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -20,33 +20,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>microboot-restful-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.11</version>
-		</dependency>
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>druid</artifactId>
-			<version>1.0.31</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>2.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-core</artifactId>
 		</dependency>
 
 		<dependency>
@@ -59,9 +34,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-
-
 	</dependencies>
 
 	<build>
